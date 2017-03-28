@@ -1,0 +1,43 @@
+{
+    "name": "css-module-sandbox",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bundle.js",
+    "scripts": {
+        "start": "webpack-dev-server --progress --inline"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pvienneau/css-module-sandbox.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pvienneau/css-module-sandbox/issues"
+    },
+    "homepage": "https://github.com/pvienneau/css-module-sandbox#readme",
+    "dependencies": {
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-polyfill": "^6.23.0",
+        "babel-preset-stage-2": "^6.22.0",
+        "babel-register": "^6.24.0",
+        "dotenv-webpack": "^1.4.3",
+        "extract-text-webpack-plugin": "^1.x.x",
+        "node-sass": "^4.5.1",
+        "object.values": "^1.0.4",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "webpack-glob-entries": "^1.0.1"
+    },
+    "devDependencies": {
+        "babel-eslint": "^7.2.1",
+        "babel-loader": "^6.4.1",
+        "babel-preset-es2015": "^6.24.0",
+        "babel-preset-react": "^6.23.0",
+        "css-loader": "^0.27.3",
+        "sass-loader": "^6.0.3",
+        "style-loader": "^0.16.0",
+        "webpack-dev-middleware": "^1.6.1",
+        "webpack-dev-server": "^1.16.2"
+    }
+}
